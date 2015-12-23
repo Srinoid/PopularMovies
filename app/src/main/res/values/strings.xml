@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_sort">Sort</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="action_sort_by_most_popular">Sort by popularity</string>
+    <string name="action_sort_by_highest_rated">Sort by rating</string>
+    <string name="pref_poster_sort_key" translatable="false">posterSort</string>
+
+    <!-- Label for the sort order preference -->
+    <string name="pref_sort_order_label">Sort Order</string>
+    <!-- Key name for storing sort order in SharedPreferences -->
+    <string name="pref_sort_order_key" translatable="false">sort_order</string>
+    <!-- Label for population option in sort order preference  -->
+    <string name="pref_sort_order_popularity_label">By most popular</string>
+    <!-- Label for rating option in sort order preference  -->
+    <string name="pref_sort_order_rating_label">By highest-rated</string>
+    <string name="pref_sort_order_popularity" translatable="false">popularity.desc</string>
+    <string name="pref_sort_order_rating" translatable="false">vote_average.desc</string>
+
+    <!-- Hints for Detail fragment -->
+    <string name="title_hint">Title</string>
+    <string name="release_date_hint">Release date</string>
+    <string name="plot_synopsis_hint">A plot synopsis</string>
+    <string name="duration_hint">Duration</string>
+    <string name="film_rating_hint">\?/10</string>
+
+    <string name="title_activity_detail">Movie Details</string>
+
+</resources>
